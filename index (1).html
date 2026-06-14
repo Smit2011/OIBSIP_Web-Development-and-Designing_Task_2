@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smit Viramgami — Frontend Developer & UI Enthusiast</title>
+  <meta name="description" content="Portfolio of Smit Viramgami, a frontend developer building responsive, modern web experiences with HTML, CSS, JavaScript and React." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============== NAVBAR ============== -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">SP<span>.</span></a>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#contact" class="btn btn-primary btn-sm">Hire Me</a>
+    </div>
+  </header>
+
+  <!-- ============== HERO SECTION ============== -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <!-- Left: Profile Placeholder -->
+      <div class="hero-left">
+        <div class="profile-frame" aria-label="Profile photo placeholder">
+          <div class="profile-icon">
+            <!-- Simple user icon built with CSS -->
+            <span class="user-head"></span>
+            <span class="user-body"></span>
+          </div>
+          <p class="profile-text">Your Photo Here</p>
+        </div>
+        <div class="floating-badge badge-top">
+          <span class="dot"></span> Available for Work
+        </div>
+        <div class="floating-badge badge-bottom">⚡ 2+ Years Coding</div>
+      </div>
+
+      <!-- Right: Intro -->
+      <div class="hero-right">
+        <p class="eyebrow">👋 Welcome to my portfolio</p>
+        <h1 class="hero-title">
+          Hi, I'm <span class="accent">Smit Viramgami</span>
+        </h1>
+        <h2 class="hero-sub">Frontend Developer &amp; UI Enthusiast</h2>
+        <p class="hero-desc">
+          I create responsive websites and modern web experiences using HTML, CSS,
+          JavaScript, React and modern web technologies.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View Projects →</a>
+          <a href="#contact" class="btn btn-ghost">Contact Me</a>
+        </div>
+
+        <div class="social-row">
+          <a href="#" class="social" aria-label="LinkedIn">in</a>
+          <a href="#" class="social" aria-label="GitHub">GH</a>
+          <a href="#" class="social" aria-label="Email">@</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== ABOUT SECTION ============== -->
+  <section id="about" class="section">
+    <div class="container about-grid">
+      <div>
+        <p class="section-eyebrow">About Me</p>
+        <h2 class="section-title">A passionate developer crafting <span class="accent">digital experiences</span>.</h2>
+        <p class="section-desc">
+          I'm a frontend developer focused on building clean, accessible, and
+          performant interfaces. I love turning complex problems into simple,
+          beautiful designs and constantly learning the latest web technologies.
+        </p>
+        <p class="section-desc">
+          Currently looking for internship opportunities where I can contribute,
+          learn from experienced engineers, and ship products that users love.
+        </p>
+        <a href="#contact" class="btn btn-primary">Let's Connect</a>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <h3>10<span class="accent">+</span></h3>
+          <p>Projects Completed</p>
+        </div>
+        <div class="stat-card">
+          <h3>2<span class="accent">+</span></h3>
+          <p>Years Learning</p>
+        </div>
+        <div class="stat-card">
+          <h3>5<span class="accent">+</span></h3>
+          <p>Technologies</p>
+        </div>
+        <div class="stat-card">
+          <h3 class="small">Available</h3>
+          <p>For Internship</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== SKILLS SECTION ============== -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-eyebrow">My Toolkit</p>
+        <h2 class="section-title">Skills &amp; <span class="accent">Technologies</span></h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card"><div class="skill-icon">&lt;/&gt;</div><h4>HTML5</h4><p>Semantic, accessible markup</p></div>
+        <div class="skill-card"><div class="skill-icon">#</div><h4>CSS3</h4><p>Modern layouts &amp; animations</p></div>
+        <div class="skill-card"><div class="skill-icon">JS</div><h4>JavaScript</h4><p>ES6+ and DOM scripting</p></div>
+        <div class="skill-card"><div class="skill-icon">⚛</div><h4>React</h4><p>Component-based UIs</p></div>
+        <div class="skill-card"><div class="skill-icon">N</div><h4>Node.js</h4><p>Server-side JavaScript</p></div>
+        <div class="skill-card"><div class="skill-icon">M</div><h4>MongoDB</h4><p>NoSQL database design</p></div>
+        <div class="skill-card"><div class="skill-icon">⎇</div><h4>Git &amp; GitHub</h4><p>Version control workflow</p></div>
+        <div class="skill-card"><div class="skill-icon">▢</div><h4>Responsive Design</h4><p>Mobile-first layouts</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== PROJECTS SECTION ============== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-eyebrow">Featured Work</p>
+        <h2 class="section-title">Selected <span class="accent">Projects</span></h2>
+      </div>
+
+      <!-- Project 1 -->
+      <article class="project-card">
+        <div class="project-media">
+          <div class="placeholder-screen">Project Screenshot</div>
+        </div>
+        <div class="project-info">
+          <span class="project-num">01</span>
+          <h3>Accessibility Guard</h3>
+          <p>A web tool that audits websites for accessibility issues and provides actionable improvements to meet WCAG standards.</p>
+          <div class="badges">
+            <span>React</span><span>Node.js</span><span>Tailwind</span>
+          </div>
+          <a href="#" class="btn btn-primary btn-sm">View Project →</a>
+        </div>
+      </article>
+
+      <!-- Project 2 (reversed) -->
+      <article class="project-card reverse">
+        <div class="project-media">
+          <div class="placeholder-screen">Project Screenshot</div>
+        </div>
+        <div class="project-info">
+          <span class="project-num">02</span>
+          <h3>Personal Portfolio</h3>
+          <p>A premium, fully responsive developer portfolio built with semantic HTML and modern CSS Grid &amp; Flexbox layouts.</p>
+          <div class="badges">
+            <span>HTML5</span><span>CSS3</span><span>Responsive</span>
+          </div>
+          <a href="#" class="btn btn-primary btn-sm">View Project →</a>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project-card">
+        <div class="project-media">
+          <div class="placeholder-screen">Project Screenshot</div>
+        </div>
+        <div class="project-info">
+          <span class="project-num">03</span>
+          <h3>Task Management App</h3>
+          <p>A full-stack task manager with authentication, drag-and-drop boards, and real-time updates between collaborators.</p>
+          <div class="badges">
+            <span>React</span><span>MongoDB</span><span>Express</span>
+          </div>
+          <a href="#" class="btn btn-primary btn-sm">View Project →</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============== SERVICES SECTION ============== -->
+  <section id="services" class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-eyebrow">What I Do</p>
+        <h2 class="section-title">Services I <span class="accent">Offer</span></h2>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">◧</div>
+          <h3>Frontend Development</h3>
+          <p>Building responsive, performant websites with modern frameworks and a focus on UX.</p>
+          <span class="service-link">Learn more →</span>
+        </div>
+        <div class="service-card featured">
+          <div class="service-icon">✦</div>
+          <h3>UI / UX Design</h3>
+          <p>Creating clean, intuitive user interfaces that look great and are a joy to use.</p>
+          <span class="service-link">Learn more →</span>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">⚡</div>
+          <h3>Web Optimization</h3>
+          <p>Improving speed, accessibility and SEO so your site loads fast and ranks higher.</p>
+          <span class="service-link">Learn more →</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== EXPERIENCE / ACHIEVEMENTS ============== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-eyebrow">By the Numbers</p>
+        <h2 class="section-title">Experience &amp; <span class="accent">Achievements</span></h2>
+      </div>
+
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <p class="metric-label">Problems Solved</p>
+          <h3>50<span class="accent">+</span></h3>
+          <div class="metric-bar"><div style="width:80%"></div></div>
+        </div>
+        <div class="metric-card">
+          <p class="metric-label">Projects Built</p>
+          <h3>10<span class="accent">+</span></h3>
+          <div class="metric-bar"><div style="width:60%"></div></div>
+        </div>
+        <div class="metric-card">
+          <p class="metric-label">Certifications</p>
+          <h3>5<span class="accent">+</span></h3>
+          <div class="metric-bar"><div style="width:50%"></div></div>
+        </div>
+        <div class="metric-card highlight">
+          <p class="metric-label">Status</p>
+          <h3 class="small">Open to<br/>Opportunities</h3>
+          <div class="metric-bar"><div style="width:100%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== CONTACT SECTION ============== -->
+  <section id="contact" class="section section-alt">
+    <div class="container contact-grid">
+      <div>
+        <p class="section-eyebrow">Get In Touch</p>
+        <h2 class="section-title">Let's build <span class="accent">something great</span> together.</h2>
+        <p class="section-desc">Have a project in mind, an internship opportunity, or just want to say hi? My inbox is always open.</p>
+
+        <ul class="contact-list">
+          <li>
+            <span class="contact-icon">@</span>
+            <div><strong>Email</strong><p>example@email.com</p></div>
+          </li>
+          <li>
+            <span class="contact-icon">✆</span>
+            <div><strong>Phone</strong><p>+91 XXXXX XXXXX</p></div>
+          </li>
+          <li>
+            <span class="contact-icon">◎</span>
+            <div><strong>Location</strong><p>India</p></div>
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact-form" onsubmit="return false;">
+        <label>
+          Name
+          <input type="text" placeholder="Your full name" />
+        </label>
+        <label>
+          Email
+          <input type="email" placeholder="you@example.com" />
+        </label>
+        <label>
+          Message
+          <textarea rows="5" placeholder="Tell me about your project..."></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary btn-block">Send Message →</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============== FOOTER ============== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#home" class="logo">SP<span>.</span></a>
+        <p class="footer-desc">Frontend developer crafting modern web experiences.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <ul>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">Email</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 Smit Viramgami. Crafted with care.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
